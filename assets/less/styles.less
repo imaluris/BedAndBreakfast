@@ -1,0 +1,1104 @@
+@import "../../bower_components/bootstrap/less/variables.less";
+@import "../../bower_components/bootstrap/less/mixins/image.less";
+@import "variables.less";
+@import "utility.less";
+
+html, body {
+  height: 100%;
+  position: relative;
+}
+
+
+#left-fixed-bar {
+  
+  z-index: 20;
+  bottom: 0;
+  top: 0;
+  left: 0px;
+  width: 250px;
+  background-color: #FFFFFF;
+
+         @media (min-width: @screen-sm) { 
+        
+        position: fixed;
+        
+        }
+        @media (min-width: @screen-md) { 
+        
+        position: fixed;
+        
+        }
+        @media (min-width: @screen-lg) { 
+        
+       position: fixed;
+        
+        }
+
+  
+  
+}
+
+.navbar-cast{
+  width: 100%;
+
+  .navbar-nav {
+    li{
+      font-family: 'Merienda One', cursive;
+      a{
+        color: #777777;
+        font-weight: bold;
+      }
+      i{
+        padding-left: 150px;
+      }
+    /*float: none;*/ 
+    width: 250px;
+    padding-left: 0px;
+
+    :hover{
+      color: black;
+    }
+
+    }
+  } 
+  
+
+  .navbar-header{
+  float: none;
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 40px;
+
+}
+}
+
+.navbar-collapse{
+  padding-left: 0px;
+}
+
+.dropdown-menu{
+  top:0;
+  left:250px;
+  height: 100%;
+  position: fixed; 
+    .first-title{
+      padding-top: 205px;
+    }
+    li{
+      padding-top: 20px;
+    }
+}
+
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
+
+.flags{
+  position: absolute;
+  padding-bottom: 100px;
+.ita-flag{
+  padding-right: 30px;
+}
+}
+
+#content-home{
+  
+  padding-left: 250px;
+  height: 100%;
+  z-index: 11;
+  img{
+    
+    position: absolute; 
+    top:0px;
+    height: 100%;
+    
+    
+    
+  }
+}
+
+#content-first-room{
+      position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 250px;
+  z-index: 11;
+  
+  
+}
+
+.modal-open #content-first-room {
+  padding-right: 17px;
+}
+
+#content-second-room{
+  
+  padding-left: 250px;
+  height: 100%;
+  z-index: 11;
+  img{
+    
+    
+    top:0px;
+    width: 100%;
+    
+  }
+}
+
+#content-third-room{
+  
+  padding-left: 250px;
+  height: 100%;
+  z-index: 11;
+  img{
+    
+    top:0px;
+    width: 100%;
+
+    
+  }
+}
+
+.home{
+    position: absolute;
+    top: 80px;
+    bottom: 0;
+    right: 0;
+    left: 0px;
+    
+    z-index: 11;
+        @media (min-width: @screen-sm) { 
+        
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 250px;
+        
+        }
+        @media (min-width: @screen-md) { 
+        
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 250px;
+        
+        }
+        @media (min-width: @screen-lg) { 
+        
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 250px;
+        
+        }
+  
+}
+
+.contact{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 250px;
+    z-index: 11;
+  
+}
+
+body { padding: 0 !important }
+
+.modal-body{
+  padding-top: 0px;
+  padding-bottom:0px;
+}
+
+.modal-lg {
+  @media (min-width: @screen-md-min) { 
+    width: 800px;
+    
+  }
+  @media (min-width: @screen-lg-min) { 
+    width: 1400px;
+  }
+}
+
+/*.events .container{
+@media (min-width: @screen-sm-min) { 
+    width: 300px;
+  }
+
+  @media (min-width: @screen-md-min) { 
+    width: 750px;
+  }
+
+  @media (min-width: @screen-lg-min) { 
+    width: 1400px;
+  }
+}*/
+
+.no-padding {
+  padding: 0;
+}
+
+.element {
+  position:relative;
+  width: 100%;
+}
+
+.element2{
+  position:absolute;
+  width: 100%;
+}
+
+.description{
+  position: relative;
+  padding:50px;
+  h1{
+    text-align: center;
+    color: white;
+    font-family: 'Merienda One', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 30px;
+
+    @media (min-width: @screen-md) {
+      font-size: 35px;
+    }
+
+    @media (min-width: @screen-lg) {
+      font-size: 40px;
+    }
+  }
+
+  h3{
+    text-align: center;
+    color: white;
+    font-family: 'Merienda One', cursive;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  h6{
+    margin: 0px;
+    text-align: left;
+    color: white;
+    font-family: 'Merienda One', cursive;
+    font-weight: bold;
+    font-size: 10px;
+    padding-bottom: 15px;
+    //padding-top: 30px;
+    //padding-right: 20px;
+    @media (min-width: @screen-md) {
+      font-size: 15px;
+    }
+
+    @media (min-width: @screen-lg) {
+      font-size: 20px;
+    }
+
+
+  }
+
+  h5{
+    margin: 0px;
+    text-align: left;
+    color: white;
+    font-family: 'Merienda One', cursive;
+    font-weight: bold;
+    font-size: 15px;
+    padding-bottom: 10px;
+
+    @media (min-width: @screen-md) {
+      font-size: 20px;
+    }
+
+    @media (min-width: @screen-lg) {
+      font-size: 25px;
+    }
+  }
+
+  
+
+ 
+
+  span{
+    color: white;
+    font-size: 15px;
+     @media (min-width: @screen-md) {
+      font-size: 25px;
+    }
+
+    @media (min-width: @screen-lg) {
+      font-size: 30px;
+    }
+    
+  }
+
+
+
+.carousel-inner {
+    border-top: 2px;
+    border-left: 2px;
+    border-right: 2px;
+    border-bottom: 2px;
+    border-color: #4f4c49;
+    border-style: solid;
+    border-radius: 2px;
+    height: 100%;
+    width: 100%;
+    
+}
+  
+}
+
+
+
+
+
+.events{
+  background-color: #dbdbdb;
+  position: relative;
+  
+  width: 100%;
+  
+  h1{
+    font-family: 'Merienda One', cursive;
+    text-align: center;
+    color: #4f4c49;
+    padding-bottom: 40px;
+  }
+
+  h4{
+    font-family: 'Merienda One', cursive;
+    text-align: center;
+    color: #bab6b0;
+    
+  }
+
+  h3{
+    font-family: 'Merienda One', cursive;
+    color: white;
+  }
+
+  h6{
+    font-family: 'Merienda One', cursive;
+    color: white;
+  }
+
+  .houses {
+    
+    .h-180 {
+        
+        @media (min-width: @screen-sm-min) { 
+          height: 180px;
+        }
+
+        @media (min-width: @screen-md-min) { 
+          height: 240px;
+        }
+
+        @media (min-width: @screen-lg-min) { 
+          height: 300px;
+        }
+    }
+
+  .window {
+    overflow: hidden;
+   
+    
+    
+    
+  }
+
+ /* .window-inner:hover {
+    transition: 0.5s;
+    transform: translate(0px,-50px);
+  }
+  */
+
+  h2 {
+    font-family: 'Merienda One', cursive;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-bottom: 40px;
+  }
+
+  h3 {
+    font-family: 'Merienda One', cursive;
+    margin-top: -40px;
+    font-weight: bold;
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+
+      @media (min-width: @screen-lg-min) { 
+        font-size: 25px;
+      }
+  
+  }
+
+  
+
+  img {
+
+
+    vertical-align: middle;
+    max-width: 100%;
+    height:auto;
+    cursor: pointer;
+    
+    
+
+  }
+
+}
+
+  
+}
+
+
+
+.simba-1{
+  background-image: url(../../images/simbamain/1.jpg);
+}
+
+.simba-2{
+  background-image: url(../../images/simbamain/2.jpg);
+}
+
+.peterpan-1{
+  background-image: url(../../images/petermain/1.jpg);
+}
+
+.peterpan-2{
+  background-image: url(../../images/petermain/2.jpg);
+}
+
+.ladymarion-1{
+  background-image: url(../../images/ladymmain/1.jpg);
+}
+
+.ladymarion-2{
+  background-image: url(../../images/ladymmain/2.jpg);
+}
+
+.contacts-1{
+  background-image: url(../../images/contatti/1.jpg);
+}
+
+.home-1{
+  background-image: url(../../images/home/home.jpg);
+}
+
+.luoghi-m{
+  background-image: url(../../images/luoghi/luoghicielo.jpg);
+}
+
+.luoghi-1{
+  background-color: black;
+}
+
+.events-1{
+  background-image: url(../../images/EventiNatale/main.jpg);
+}
+
+.sfondi{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+
+
+
+.text-peter{
+  
+  float: right;
+  z-index:20;
+  max-width: 60%;
+  padding-top:300px;
+  padding-right:200px; 
+      @media (min-width: @screen-sm) {   
+      padding-top:30px;
+      padding-right:200px;   
+      }
+      @media (min-width: @screen-md) {   
+      padding-top:30px;
+      padding-right:100px;    
+      }
+      @media (min-width: @screen-lg) {   
+      padding-top:50px;
+      padding-right:150px;   
+      }
+ 
+
+   #p-title{
+      font-family: 'Merienda One', cursive;
+      font-weight: bold;
+      color: black;
+      text-align: center;
+      z-index: 20;
+      font-size: 15px;
+      @media (min-width: @screen-sm) {   
+      font-size: 30px;   
+      }
+      @media (min-width: @screen-md) {   
+      font-size: 40px;   
+      }
+      @media (min-width: @screen-lg) {   
+      font-size: 50px;   
+      }
+      }
+}
+
+.text-lady{
+  h1{
+    margin: 0;
+  }
+  
+  z-index:20;
+  max-width: 60%;
+  float: left;
+  
+      @media (min-width: @screen-sm) {   
+      padding-top:150px;
+      padding-left:20px;   
+      }
+      @media (min-width: @screen-md) {   
+      padding-top:150px;
+      padding-left:50px;    
+      }
+      @media (min-width: @screen-lg) {   
+      padding-top:150px;
+      padding-left:140px;   
+      }
+ 
+
+   #p-title{
+      font-family: 'Merienda One', cursive;
+      font-weight: bold;
+      color: black;
+      text-align: center;
+      z-index: 20;
+      font-size: 15px;
+      @media (min-width: @screen-sm) {   
+      font-size: 30px;   
+      }
+      @media (min-width: @screen-md) {   
+      font-size: 40px;   
+      }
+      @media (min-width: @screen-lg) {   
+      font-size: 50px;   
+      }
+      }
+}
+
+.text-simba{
+   h1{
+    margin: 0;
+  }
+  
+  z-index:20;
+  max-width: 60%;
+  float: left;
+  
+      @media (min-width: @screen-sm) {   
+      padding-top:80px;
+      padding-left:50px;   
+      }
+      @media (min-width: @screen-md) {   
+      padding-top:80px;
+      padding-left:150px;    
+      }
+      @media (min-width: @screen-lg) {   
+      padding-top:80px;
+      padding-left:250px;   
+      }
+ 
+
+   #p-title{
+      font-family: 'Merienda One', cursive;
+      font-weight: bold;
+      color: black;
+      text-align: center;
+      z-index: 20;
+      font-size: 15px;
+      @media (min-width: @screen-sm) {   
+      font-size: 30px;   
+      }
+      @media (min-width: @screen-md) {   
+      font-size: 40px;   
+      }
+      @media (min-width: @screen-lg) {   
+      font-size: 50px;   
+      }
+      }
+}
+
+
+.text{
+  position: absolute;
+  z-index:20;
+  max-width: 60%;
+
+    #p-title{
+      font-family: 'Merienda One', cursive;
+      font-weight: bold;
+      color: black;
+      text-align: center;
+      z-index: 20;
+      font-size: 15px;
+      @media (min-width: @screen-sm) {   
+      font-size: 30px;   
+      }
+      @media (min-width: @screen-md) {   
+      font-size: 40px;   
+      }
+      @media (min-width: @screen-lg) {   
+      font-size: 100px;   
+      }
+      
+    }
+    
+  
+    #p-subtitle{
+        font-family: 'Merienda One', cursive;
+        font-weight: bold;
+        color: black;
+        font-size: 10px;
+        z-index: 20;
+        text-align: center;
+        @media (min-width: @screen-sm) { 
+        font-size: 20px;
+        }
+        @media (min-width: @screen-md) { 
+        font-size: 30px;
+        }
+        @media (min-width: @screen-lg) { 
+        font-size: 35px;
+        }
+    }
+
+    .p-main{
+        font-family: 'Merienda One', cursive;
+        color: black;
+        font-weight: bold;
+        font-size: 10px;
+        z-index: 20;
+        text-align: center;
+        @media (min-width: @screen-sm) { 
+        font-size: 15px;
+        }
+        @media (min-width: @screen-md) { 
+        font-size: 20px;
+        }
+        @media (min-width: @screen-lg) { 
+        font-size: 25px;
+      }
+    }
+}
+
+.text-luoghi{
+  position: absolute;
+  z-index:20;
+  max-width: 60%;
+
+    #p-title{
+      font-family: 'Merienda One', cursive;
+      font-weight: bold;
+      color: white;
+      text-align: center;
+      z-index: 20;
+      font-size: 15px;
+      @media (min-width: @screen-sm) {   
+      font-size: 30px;   
+      }
+      @media (min-width: @screen-md) {   
+      font-size: 40px;   
+      }
+      @media (min-width: @screen-lg) {   
+      font-size: 50px;   
+      }
+      
+    }
+    
+  
+    #p-subtitle{
+        font-family: 'Merienda One', cursive;
+        color: white;
+        font-size: 10px;
+        z-index: 20;
+        text-align: center;
+        @media (min-width: @screen-sm) { 
+        font-size: 20px;
+        }
+        @media (min-width: @screen-md) { 
+        font-size: 30px;
+        }
+        @media (min-width: @screen-lg) { 
+        font-size: 35px;
+        }
+    }
+
+    .p-main{
+        font-family: 'Merienda One', cursive;
+        color: black;
+        font-weight: bold;
+        font-size: 10px;
+        z-index: 20;
+        text-align: center;
+        @media (min-width: @screen-sm) { 
+        font-size: 15px;
+        }
+        @media (min-width: @screen-md) { 
+        font-size: 20px;
+        }
+        @media (min-width: @screen-lg) { 
+        font-size: 25px;
+      }
+    }
+}
+
+.textcontact{
+  position: absolute;
+  z-index:20;
+  
+
+  max-width: 60%;
+
+    #p-title{
+      font-family: 'Merienda One', cursive;
+      font-weight: bold;
+      color: black;
+      font-size: 50px;
+      z-index: 20;
+      text-align: left;
+      padding-bottom: 80px;
+    }
+    
+  
+    h3{
+      font-family: 'Merienda One', cursive;
+      font-weight: bold;
+      color: black;
+      font-size: 35px;
+      z-index: 20;
+      text-align: left;
+      padding-bottom: 30px;
+    }
+
+    h5{
+      font-family: 'Merienda One', cursive;
+      font-weight: bold;
+      color: dimgrey;
+      font-size: 20px;
+      z-index: 20;
+      text-align: left;
+      padding-bottom: 50px;
+    }
+}
+  
+
+
+
+
+
+ .scroll-to-next{
+   position: fixed;
+   bottom:0;
+   left:50%;
+   
+   z-index: 30;
+   margin-left: 105px;
+   width: 40px;
+   height: 40px;
+   margin-bottom: 20px;
+   .fa{
+     margin-top:25%;
+     margin-left:25%;
+     color: black;
+     font-weight: bold;
+     font-size: 20px;
+   }
+   
+ }
+
+ .nature1{
+   img{
+     height: 400px;
+  }
+   height: 400px;
+   width: 1400px;
+ }
+
+
+/* Style the Image Used to Trigger the Modal */
+
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 0px;
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+
+    @media (min-width: @screen-sm) { 
+        padding-top: 0px;
+    }
+
+    @media (min-width: @screen-md) { 
+        padding-top: 0px;
+    }
+
+    @media (min-width: @screen-lg) { 
+        padding-top: 250px;
+    }
+    .description-modal{
+      h1{
+        font-family: 'Merienda One', cursive;
+      }
+
+      h4
+      {
+        font-family: 'Merienda One', cursive;
+      }
+    }
+}
+
+
+#map {
+   height: 100%;
+   width: 100%;
+}
+
+.eventinatale{
+  
+  position: relative;
+   h1{
+    font-family: 'Merienda One', cursive;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    font-size: 30px;
+    margin: 0px;
+    font-weight: bold;
+
+    @media (min-width: @screen-md) { 
+        font-size:30px;
+        padding-bottom: 50px;
+    }
+
+    @media (min-width: @screen-lg) { 
+        font-size:50px;
+        padding-bottom: 50px;
+    }
+  }
+  
+
+  
+}
+
+
+
+
+.eventoN{
+  padding-bottom: 50px;
+  a{
+    color: black;
+  }
+
+  h4{
+    font-family: 'Merienda One', cursive;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    font-size:15px;
+
+    @media (min-width: @screen-md) { 
+        font-size:20px;
+    }
+
+    @media (min-width: @screen-lg) { 
+        font-size:20px;
+    }
+  }
+
+  h6{
+    font-family: 'Merienda One', cursive;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    font-size:10px;
+
+    @media (min-width: @screen-md) { 
+        font-size:15px;
+    }
+
+    @media (min-width: @screen-lg) { 
+        font-size:15px;
+    }
+  }
+
+  img{
+    border: 3px ridge white;
+
+     @media (min-width: @screen-md) { 
+        border: 10px ridge white;
+    }
+
+    @media (min-width: @screen-lg) { 
+        border: 10px ridge white;
+    }
+  }
+  
+}
+
+.eventi{
+  h2{
+    font-family: 'Merienda One', cursive;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 30px;
+  }
+
+   h4{
+    font-family: 'Merienda One', cursive;
+    font-size: 15px;
+    
+    color: white;
+  }
+
+  h6{
+    font-family: 'Merienda One', cursive;
+    font-size: 12px;
+    color: white;
+  }
+
+  a{
+    color: white;
+  }
+
+  .evento{
+      padding-bottom: 40px;
+      
+  }
+
+  img{
+    padding-top: 30px;
+
+  }
+}
+
+.eventiSport{
+  h2{
+    padding-bottom: 20px;
+  }
+  li{
+    font-family: 'Merienda One', cursive;
+    font-size: 10px;
+    padding-left:0px;
+    
+    color: white;
+  }
+}
+
+.evt{
+  min-height: 250px;
+}
+
+
+
+/*
+nav.navbar.navbar-default {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-weight: bold;
+  height: 75px;
+  ;
+
+  .navbar-header a {
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+  }
+
+  .navbar-header a p{
+    font-weight: bold;
+    font-size: 15px;
+    color: gray;
+  }
+
+  .navbar-header img {
+    float: left;
+    margin-top: 10px;
+
+  }
+
+  div .nav a {
+     padding: 0 30px;
+    color: black;
+    line-height: 75px;
+
+  }
+  .dropdown-menu {
+
+    background-color: #0091EA
+
+  }
+
+  li.active {
+
+    background-color: #FFD700;
+
+  }
+
+  li.active a {
+
+    background-color: #FFD700;
+
+  }
+
+
+    .dropdown-menu {
+
+      background-color: #0091EA;
+
+      a {
+      color: #ffffff;
+      font-weight: bold;
+      }
+
+    }
+
+   ul.nav > li :hover {
+
+      background-color: #FFD700;
+
+  }
+
+  .dropdown-menu li :hover {
+    background-color: transparent;
+    color: #FFD700;
+
+}
+
+}
+*/
+
+
+
+.modal-open .modal {
+  z-index: 1050;
+}

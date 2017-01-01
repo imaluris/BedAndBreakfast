@@ -1,0 +1,25 @@
+{
+  "name": "Bed and breakfast",
+  "description": "Fable",
+  "main": "index.html",
+  "authors": [
+    "Andrea Castellani Perelli <andrea.castellaniperelli@gmail.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "Font-Awesome": "https://github.com/FortAwesome/Font-Awesome",
+    "jquery": "^2.2.2",
+    "jquery-ui": "1.*"
+  }
+}
