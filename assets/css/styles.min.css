@@ -842,7 +842,17 @@ body {
   font-size: 50px;
   z-index: 20;
   text-align: left;
-  padding-bottom: 80px;
+  padding-bottom: 40px;
+}
+@media (min-width: 1250px) {
+  .textcontact #p-title {
+    padding-bottom: 80px;
+  }
+}
+@media (min-width: 1500px) {
+  .textcontact #p-title {
+    padding-bottom: 80px;
+  }
 }
 .textcontact h3 {
   font-family: 'Merienda One', cursive;
@@ -851,7 +861,17 @@ body {
   font-size: 35px;
   z-index: 20;
   text-align: left;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
+}
+@media (min-width: 1250px) {
+  .textcontact h3 {
+    padding-bottom: 30px;
+  }
+}
+@media (min-width: 1500px) {
+  .textcontact h3 {
+    padding-bottom: 30px;
+  }
 }
 .textcontact h5 {
   font-family: 'Merienda One', cursive;
@@ -860,7 +880,17 @@ body {
   font-size: 20px;
   z-index: 20;
   text-align: left;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
+}
+@media (min-width: 1250px) {
+  .textcontact h5 {
+    padding-bottom: 30px;
+  }
+}
+@media (min-width: 1500px) {
+  .textcontact h5 {
+    padding-bottom: 30px;
+  }
 }
 .scroll-to-next {
   position: fixed;
@@ -1050,82 +1080,6 @@ body {
 .evt {
   min-height: 250px;
 }
-/*
-nav.navbar.navbar-default {
-  background-color: #FFFFFF;
-  color: #000000;
-  font-weight: bold;
-  height: 75px;
-  ;
-
-  .navbar-header a {
-    font-weight: bold;
-    font-size: 30px;
-    color: black;
-  }
-
-  .navbar-header a p{
-    font-weight: bold;
-    font-size: 15px;
-    color: gray;
-  }
-
-  .navbar-header img {
-    float: left;
-    margin-top: 10px;
-
-  }
-
-  div .nav a {
-     padding: 0 30px;
-    color: black;
-    line-height: 75px;
-
-  }
-  .dropdown-menu {
-
-    background-color: #0091EA
-
-  }
-
-  li.active {
-
-    background-color: #FFD700;
-
-  }
-
-  li.active a {
-
-    background-color: #FFD700;
-
-  }
-
-
-    .dropdown-menu {
-
-      background-color: #0091EA;
-
-      a {
-      color: #ffffff;
-      font-weight: bold;
-      }
-
-    }
-
-   ul.nav > li :hover {
-
-      background-color: #FFD700;
-
-  }
-
-  .dropdown-menu li :hover {
-    background-color: transparent;
-    color: #FFD700;
-
-}
-
-}
-*/
 .modal-open .modal {
   z-index: 1050;
 }

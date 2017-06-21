@@ -9,6 +9,8 @@ html, body {
 }
 
 
+
+
 #left-fixed-bar {
   
   z-index: 20;
@@ -34,8 +36,24 @@ html, body {
         
         }
 
-  
-  
+}
+
+.navbar-mobile{
+   @media (min-width: @screen-sm) { 
+        
+        position: fixed;
+        
+   }
+  @media (min-width: @screen-md) { 
+        
+        visibility: hidden;
+        
+  }
+  @media (min-width: @screen-lg) { 
+        
+       visibility: hidden;
+        
+        }
 }
 
 .navbar-cast{
@@ -774,10 +792,15 @@ body { padding: 0 !important }
       font-size: 50px;
       z-index: 20;
       text-align: left;
-      padding-bottom: 80px;
+      padding-bottom: 40px;
+      
+        @media (min-width: @screen-md) { 
+        padding-bottom: 80px;
+        }
+        @media (min-width: @screen-lg) { 
+        padding-bottom: 80px;
+        }
     }
-    
-  
     h3{
       font-family: 'Merienda One', cursive;
       font-weight: bold;
@@ -785,7 +808,14 @@ body { padding: 0 !important }
       font-size: 35px;
       z-index: 20;
       text-align: left;
-      padding-bottom: 30px;
+      padding-bottom: 0px;
+      
+      @media (min-width: @screen-md) { 
+        padding-bottom: 30px;
+        }
+        @media (min-width: @screen-lg) { 
+        padding-bottom: 30px;
+        }
     }
 
     h5{
@@ -795,7 +825,14 @@ body { padding: 0 !important }
       font-size: 20px;
       z-index: 20;
       text-align: left;
-      padding-bottom: 50px;
+       padding-bottom: 0px;
+      
+      @media (min-width: @screen-md) { 
+        padding-bottom: 30px;
+        }
+        @media (min-width: @screen-lg) { 
+        padding-bottom: 30px;
+        }
     }
 }
   
@@ -1018,84 +1055,6 @@ body { padding: 0 !important }
   min-height: 250px;
 }
 
-
-
-/*
-nav.navbar.navbar-default {
-  background-color: #FFFFFF;
-  color: #000000;
-  font-weight: bold;
-  height: 75px;
-  ;
-
-  .navbar-header a {
-    font-weight: bold;
-    font-size: 30px;
-    color: black;
-  }
-
-  .navbar-header a p{
-    font-weight: bold;
-    font-size: 15px;
-    color: gray;
-  }
-
-  .navbar-header img {
-    float: left;
-    margin-top: 10px;
-
-  }
-
-  div .nav a {
-     padding: 0 30px;
-    color: black;
-    line-height: 75px;
-
-  }
-  .dropdown-menu {
-
-    background-color: #0091EA
-
-  }
-
-  li.active {
-
-    background-color: #FFD700;
-
-  }
-
-  li.active a {
-
-    background-color: #FFD700;
-
-  }
-
-
-    .dropdown-menu {
-
-      background-color: #0091EA;
-
-      a {
-      color: #ffffff;
-      font-weight: bold;
-      }
-
-    }
-
-   ul.nav > li :hover {
-
-      background-color: #FFD700;
-
-  }
-
-  .dropdown-menu li :hover {
-    background-color: transparent;
-    color: #FFD700;
-
-}
-
-}
-*/
 
 
 
